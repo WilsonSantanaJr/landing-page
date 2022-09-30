@@ -28,7 +28,7 @@ main {
 }
 
 .left-image {
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -36,11 +36,8 @@ main {
     fex-direction: column;
 }
 
-.card-image {
-}
-
 .right-form {
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
     justify-content: center;
