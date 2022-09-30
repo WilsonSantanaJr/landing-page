@@ -1,12 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    /* colors */
+    --base-color: rgba(148, 159, 248, 1);
+
+    /* text colors */
+    --title-color: rgba(69, 69, 69, 1);
+    --p-color: rgba(170, 170, 170, 1);
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #949FF8;
+    background: var(--base-color);
 }
 
 main {
@@ -41,7 +50,12 @@ main {
 
 .card-form {
     padding: 20px 30px 30px 30px;
-    background: #fff;
+    background: white;
+}
+
+.card-form div {
+    display: flex;
+    gap: 11px;
 }
 
 .textfield {
@@ -52,12 +66,17 @@ main {
 }
 
 .card-form h1 {
-    color: #454545;
-    font-size: 2.5rem;
+    color: var(--title-color);
+    font-size: 30px;
     margin-bottom: 8px;
 }
 
 .card-form p {
-    color: #AAAAAA;
-    font-size: 1.2rem;
+    color: var(--p-color);
+    font-size: 14px;
+}
+
+.textfield label {
+    color: var(--h1-color);
+    margin-bottom: 12px;
 }
